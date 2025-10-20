@@ -1,0 +1,9 @@
+Employee ID,Full Name,Title,Department,Manager ID,Email,Location
+E001,Alex Morgan,CEO,Executive,,alex@acme.com,Cleveland
+E002,Jamie Lee,VP of Engineering,Engineering,E001,jamie@acme.com,Cleveland
+E003,Sam Patel,Engineering Manager,Engineering,E002,sam@acme.com,Columbus
+E004,Taylor Kim,Senior Engineer,Engineering,E003,taylor@acme.com,Remote
+E005,Riley Chen,Engineer,Engineering,E003,riley@acme.com,Remote
+E006,Jordan Diaz,VP of Sales,Sales,E001,jordan@acme.com,Cleveland
+E007,Casey Brooks,Sales Manager,Sales,E006,casey@acme.com,Cincinnati
+E008,Drew Nguyen,Account Executive,Sales,E007,drew@acme.com,Remote

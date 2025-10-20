@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+.svg-chart-container path {
+  stroke: #475569 !important;
+  stroke-width: 2px !important;
+}
+
+.svg-chart-container line {
+  stroke: #475569 !important;
+  stroke-width: 2px !important;
+}
+
+@media print {
+  @page {
+    size: landscape;
+    margin: 1cm;
+  }
+
+  body {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  header {
+    display: none !important;
+  }
+
+  [class*="border"] {
+    page-break-inside: avoid;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .svg-chart-container path,
+  .svg-chart-container line {
+    stroke: #000000 !important;
+    stroke-width: 2px !important;
+  }
+}
